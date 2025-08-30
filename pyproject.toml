@@ -6,5 +6,6 @@ requires-python = ">=3.12"
 dependencies = [
     "joblib>=1.5.2",
     "pandas>=2.3.2",
+    "scikit-learn>=1.7.1",
     "streamlit>=1.49.1",
 ]
