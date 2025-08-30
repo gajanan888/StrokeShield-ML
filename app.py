@@ -35,25 +35,23 @@ st.markdown("""
     
     .main-header {
         text-align: center;
-        color: #00ff88;
-        font-size: 3rem;
+        color: #4ade80;  /* softer green */
+        font-size: 2.5rem;
         font-weight: bold;
         margin-bottom: 10px;
-        text-shadow: 0 0 20px #00ff88;
-        animation: glow 2s ease-in-out infinite alternate;
+        text-shadow: 0 0 5px #4ade80;
     }
     
     @keyframes glow {
-        from { text-shadow: 0 0 20px #00ff88, 0 0 30px #00ff88, 0 0 40px #00ff88; }
-        to { text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88, 0 0 30px #00ff88; }
+        from { text-shadow: 0 0 5px #4ade80, 0 0 30px #4ade80, 0 0 40px #4ade80; }
+        to { text-shadow: 0 0 10px #4ade80, 0 0 5px #4ade80, 0 0 30px #4ade80; }
     }
     
     .subtitle {
         text-align: center;
-        color: #64ffda;
-        font-size: 1.3rem;
+        color: #38bdf8;  /* softer cyan */
+        font-size: 1.2rem;
         margin-bottom: 20px;
-        animation: fadeInUp 1s ease-out;
     }
     
     @keyframes fadeInUp {
@@ -61,16 +59,30 @@ st.markdown("""
         to { opacity: 1; transform: translateY(0); }
     }
     
-    .input-container {
-        background: rgba(20, 30, 48, 0.8);
-        padding: 25px;
-        border-radius: 15px;
-        margin: 20px 0;
-        border: 1px solid #00ff88;
-        box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
-        backdrop-filter: blur(10px);
-        animation: slideInLeft 0.8s ease-out;
-    }
+    # .input-container {
+    #     background: rgba(20, 30, 48, 0.7);
+    #     padding: 20px;
+    #     border-radius: 12px;
+    #     margin: 15px 0;
+    #     border: 1px solid #4ade80;
+    #     box-shadow: 0 0 10px rgba(74, 222, 128, 0.15);
+    # }
+            
+    /* Fix for top boxes */
+.top-box {
+    border: 1px solid #38bdf8;
+    border-radius: 10px;
+    padding: 8px 15px;   /* smaller padding */
+    margin-bottom: 15px;
+    display: inline-block; /* shrink to content */
+    width: auto;  /* remove full stretch */
+    min-width: 200px;  /* optional: keep a minimum */
+    text-align: center;
+    font-size: 1rem;
+    color: #38bdf8;
+    background: rgba(20, 30, 48, 0.5);
+}
+
     
     @keyframes slideInLeft {
         from { transform: translateX(-50px); opacity: 0; }
@@ -78,13 +90,12 @@ st.markdown("""
     }
     
     .prediction-section {
-        background: rgba(20, 30, 48, 0.9);
-        padding: 30px;
-        border-radius: 20px;
-        border: 2px solid #00ff88;
-        box-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
+        background: rgba(20, 30, 48, 0.85);
+        padding: 25px;
+        border-radius: 15px;
+        border: 1px solid #38bdf8;
+        box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
         text-align: center;
-        animation: slideInRight 0.8s ease-out;
     }
     
     @keyframes slideInRight {
@@ -109,9 +120,9 @@ st.markdown("""
     
     .heart-animation {
         font-size: 4rem;
-        color: #ff4757;
+        color: #ef4444;
         animation: heartbeat 1.2s ease-in-out infinite;
-        text-shadow: 0 0 20px #ff4757;
+        text-shadow: 0 0 5px #ef4444;
     }
     
     @keyframes heartbeat {
@@ -138,7 +149,7 @@ st.markdown("""
     }
     
     .result-low-risk {
-        background: linear-gradient(135deg, #00ff88, #32ff7e);
+        background: linear-gradient(135deg, #4ade80, #32ff7e);
         color: #0c1426;
         padding: 30px;
         border-radius: 20px;
@@ -155,7 +166,7 @@ st.markdown("""
     
     .prediction-loading {
         text-align: center;
-        color: #64ffda;
+        color: #38bdf8;
         font-size: 1.5rem;
         margin: 30px 0;
         animation: fadeInOut 1.5s infinite;
@@ -170,16 +181,16 @@ st.markdown("""
         background: rgba(100, 255, 218, 0.1);
         padding: 20px;
         border-radius: 10px;
-        border-left: 4px solid #64ffda;
+        border-left: 4px solid #38bdf8;
         margin: 20px 0;
-        color: #64ffda;
+        color: #38bdf8;
     }
     
     .metric-card {
         background: rgba(20, 30, 48, 0.6);
         padding: 15px;
         border-radius: 10px;
-        border: 1px solid #00ff88;
+        border: 1px solid #4ade80;
         margin: 10px 0;
         transition: all 0.3s ease;
     }
@@ -191,18 +202,18 @@ st.markdown("""
     
     .footer-info {
         text-align: center;
-        color: #64ffda;
+        color: #38bdf8;
         margin-top: 50px;
         padding: 20px;
-        border-top: 1px solid #00ff88;
+        border-top: 1px solid #4ade80;
         opacity: 0.8;
     }
     
     /* Streamlit specific styling */
     .stSelectbox > div > div {
         background-color: rgba(20, 30, 48, 0.8);
-        border: 1px solid #00ff88;
-        color: #64ffda;
+        border: 1px solid #4ade80;
+        color: #38bdf8;
     }
     
     .stSlider > div > div {
@@ -211,17 +222,17 @@ st.markdown("""
     
     .stNumberInput > div > div {
         background-color: rgba(20, 30, 48, 0.8);
-        border: 1px solid #00ff88;
-        color: #64ffda;
+        border: 1px solid #4ade80;
+        color: #38bdf8;
     }
     
     h3 {
-        color: #00ff88 !important;
-        text-shadow: 0 0 10px #00ff88;
+        color: #4ade80 !important;
+        text-shadow: 0 0 10px #4ade80;
     }
     
     .stButton > button {
-        background: linear-gradient(45deg, #00ff88, #64ffda);
+        background: linear-gradient(45deg, #4ade80, #38bdf8);
         color: #0c1426;
         border: none;
         border-radius: 25px;
@@ -233,7 +244,7 @@ st.markdown("""
     }
     
     @keyframes buttonPulse {
-        0%, 100% { transform: scale(1); box-shadow: 0 0 20px rgba(0, 255, 136, 0.3); }
+        0%, 100% { transform: scale(1); box-shadow: 0 0 5px rgba(0, 255, 136, 0.3); }
         50% { transform: scale(1.05); box-shadow: 0 0 30px rgba(0, 255, 136, 0.6); }
     }
 </style>
@@ -430,7 +441,7 @@ with col3:
     st.markdown("""
     <div class="metric-card">
         <h4>🎯 Model Accuracy</h4>
-        <p style="font-size: 2rem; color: #00ff88;">95.2%</p>
+        <p style="font-size: 2rem; color: #4ade80;">95.2%</p>
         <p>K-Nearest Neighbors</p>
     </div>
     """, unsafe_allow_html=True)
@@ -439,7 +450,7 @@ with col4:
     st.markdown("""
     <div class="metric-card">
         <h4>📈 Features Used</h4>
-        <p style="font-size: 2rem; color: #64ffda;">11</p>
+        <p style="font-size: 2rem; color: #38bdf8;">11</p>
         <p>Clinical Parameters</p>
     </div>
     """, unsafe_allow_html=True)
