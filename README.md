@@ -4,34 +4,34 @@ StrokeShield-ML is a **machine learning-based health project** designed to predi
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-* Predicts stroke risk based on patient data
-* Uses multiple ML models for better accuracy
-* Data preprocessing & visualization included
-* Evaluation metrics for model performance
-* Scalable for integration with healthcare applications
+- 🔮 **Predicts stroke risk** based on patient data
+- 🤖 **Uses multiple ML models** for better accuracy
+- 📊 **Data preprocessing & visualization** included
+- 📈 **Evaluation metrics** for model performance
+- 🚀 **Scalable** for integration with healthcare applications
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Languages:** Python
-* **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-* **ML Models:** Logistic Regression, Decision Trees, Random Forest, etc.
+- **Languages:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **ML Models:** Logistic Regression, Decision Trees, Random Forest, etc.
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 StrokeShield-ML/
-├── data/                 # Dataset files
-├── notebooks/            # Jupyter notebooks for experiments
-├── src/                  # Source code (preprocessing, training, evaluation)
-├── models/               # Saved trained models
-├── results/              # Performance metrics & graphs
-└── README.md             # Project documentation
+├── 📂 data/                 # Dataset files
+├── 📂 notebooks/            # Jupyter notebooks for experiments
+├── 📂 src/                  # Source code (preprocessing, training, evaluation)
+├── 📂 models/               # Saved trained models
+├── 📂 results/              # Performance metrics & graphs
+└── 📄 README.md             # Project documentation
 ```
 
 ---
@@ -65,8 +65,8 @@ Open the notebook inside `notebooks/` to explore training and evaluation.
 
 The dataset used is publicly available stroke prediction dataset (e.g., from [Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)).
 
-* Attributes include age, gender, hypertension, heart disease, glucose levels, BMI, smoking status, etc.
-* Target: **Stroke (Yes/No)**
+- 👥 **Attributes include:** age, gender, hypertension, heart disease, glucose levels, BMI, smoking status, etc.
+- 🎯 **Target:** Stroke (Yes/No)
 
 ---
 
@@ -74,11 +74,11 @@ The dataset used is publicly available stroke prediction dataset (e.g., from [Ka
 
 The project evaluates models based on:
 
-* Accuracy
-* Precision
-* Recall
-* F1 Score
-* ROC-AUC Curve
+- ✅ Accuracy
+- 🎯 Precision
+- 🔄 Recall
+- 📊 F1 Score
+- 📉 ROC-AUC Curve
 
 ---
 
@@ -102,12 +102,12 @@ print("Stroke Risk:", prediction)
 
 ---
 
-## 🎯 Future Scope
+## 🔮 Future Scope
 
-* Deploy as a **web app** using Flask/Streamlit
-* Add deep learning models for better accuracy
-* Integrate with real-world healthcare data
-* Provide personalized health recommendations
+- 🌐 **Deploy as a web app** using Flask/Streamlit
+- 🤖 **Add deep learning models** for better accuracy
+- 🏥 **Integrate with real-world healthcare data**
+- 💡 **Provide personalized health recommendations**
 
 ---
 
@@ -119,14 +119,15 @@ Contributions are welcome! Feel free to fork this repo, create issues, and submi
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
 ## 👨‍💻 Author
 
-* **Gajanan Wadaskar**
-  [GitHub](https://github.com/gajanan888) | [LinkedIn](https://www.linkedin.com/in/gajanan-wadaskar)
+- **Gajanan Wadaskar**
+  - 🔗 [GitHub](https://github.com/gajanan888)
+  - 💼 [LinkedIn](https://www.linkedin.com/in/gajanan-wadaskar)
 
 ---
 
