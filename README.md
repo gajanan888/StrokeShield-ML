@@ -126,8 +126,8 @@ This project is licensed under the **MIT License**.
 ## 👨‍💻 Author
 
 - **Gajanan Wadaskar**
-  - 🔗 [GitHub](https://github.com/gajanan888)
-  - 💼 [LinkedIn](https://www.linkedin.com/in/gajanan-wadaskar)
+[![GitHub](https://img.shields.io/badge/GitHub-gajanan888-black?logo=github)](https://github.com/gajanan888)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gajanan%20Wadaskar-blue?logo=linkedin)](https://www.linkedin.com/in/gajanan-wadaskar)
 
 ---
 
